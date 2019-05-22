@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"start": "node src/server.js",
-	"build": "webpack",
+    "start": "node src/server.js",
+    "build": "webpack",
     "buildProduction": "webpack --config webpack.production.config.js",
     "buildDevelopment": "webpack-dev-server --config webpack.development.config.js --hot"
   },
